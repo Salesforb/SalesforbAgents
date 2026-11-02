@@ -1,0 +1,32 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/secrets/
+**/*credentials*.json
+**/*token*.json
+
+# Local SalesForB runtime data
+data/
+models/
+runtime/
+gateway-runtime/
+chrome/
+logs/
+backups/
+*.db
+*.db-shm
+*.db-wal
+*.lock
+*.pid
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
